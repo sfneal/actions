@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Sfneal\\LaravelActions\\": "src"
+            "Sfneal\\Actions\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Sfneal\\LaravelActions\\Tests\\": "tests"
+            "Sfneal\\Actions\\Tests\\": "tests"
         }
     },
     "scripts": {

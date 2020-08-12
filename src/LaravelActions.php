@@ -1,6 +1,6 @@
 <?php
 
-namespace Sfneal\LaravelActions;
+namespace Sfneal\Actions;
 
 class LaravelActions
 {
