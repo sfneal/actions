@@ -1,0 +1,54 @@
+{
+    "name": "sfneal/laravel-actions",
+    "description": "Abstraction layers for creating Actions in Laravel Applications",
+    "keywords": [
+        "sfneal",
+        "laravel-actions"
+    ],
+    "homepage": "https://github.com/sfneal/laravel-actions",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Stephen Neal",
+            "email": "stephen.neal14@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "^6.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sfneal\\LaravelActions\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Sfneal\\LaravelActions\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sfneal\\LaravelActions\\LaravelActionsServiceProvider"
+            ],
+            "aliases": {
+                "LaravelActions": "Sfneal\\LaravelActions\\LaravelActionsFacade"
+            }
+        }
+    }
+}
