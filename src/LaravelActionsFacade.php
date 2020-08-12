@@ -4,9 +4,7 @@ namespace Sfneal\LaravelActions;
 
 use Illuminate\Support\Facades\Facade;
 
-/**
- * @see \Sfneal\LaravelActions\Skeleton\SkeletonClass
- */
+
 class LaravelActionsFacade extends Facade
 {
     /**
