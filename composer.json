@@ -40,15 +40,5 @@
     },
     "config": {
         "sort-packages": true
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Sfneal\\LaravelActions\\LaravelActionsServiceProvider"
-            ],
-            "aliases": {
-                "LaravelActions": "Sfneal\\LaravelActions\\LaravelActionsFacade"
-            }
-        }
     }
 }
