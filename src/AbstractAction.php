@@ -1,16 +1,14 @@
 <?php
 
-
 namespace Sfneal\Actions;
 
 /**
- * Class AbstractAction
- * @package Sfneal\Actions
+ * Class AbstractAction.
  */
 abstract class AbstractAction
 {
     /**
-     * Execute the action
+     * Execute the action.
      *
      * @return mixed
      */
