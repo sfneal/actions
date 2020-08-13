@@ -1,18 +1,18 @@
 # Very short description of the package
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/sfneal/laravel-actions.svg?style=flat-square)](https://packagist.org/packages/sfneal/laravel-actions)
-[![Build Status](https://img.shields.io/travis/sfneal/laravel-actions/master.svg?style=flat-square)](https://travis-ci.org/sfneal/laravel-actions)
-[![Quality Score](https://img.shields.io/scrutinizer/g/sfneal/laravel-actions.svg?style=flat-square)](https://scrutinizer-ci.com/g/sfneal/laravel-actions)
-[![Total Downloads](https://img.shields.io/packagist/dt/sfneal/laravel-actions.svg?style=flat-square)](https://packagist.org/packages/sfneal/laravel-actions)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/sfneal/actions.svg?style=flat-square)](https://packagist.org/packages/sfneal/actions)
+[![Build Status](https://img.shields.io/travis/sfneal/actions/master.svg?style=flat-square)](https://travis-ci.org/sfneal/actions)
+[![Quality Score](https://img.shields.io/scrutinizer/g/sfneal/actions.svg?style=flat-square)](https://scrutinizer-ci.com/g/sfneal/actions)
+[![Total Downloads](https://img.shields.io/packagist/dt/sfneal/actions.svg?style=flat-square)](https://packagist.org/packages/sfneal/actions)
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
+Abstraction layers for utilizing the "Action" pattern in PHP applications
 
 ## Installation
 
 You can install the package via composer:
 
 ```bash
-composer require sfneal/laravel-actions
+composer require sfneal/actions
 ```
 
 ## Usage

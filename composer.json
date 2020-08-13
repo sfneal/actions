@@ -1,11 +1,11 @@
 {
-    "name": "sfneal/laravel-actions",
-    "description": "Abstraction layers for creating Actions in Laravel Applications",
+    "name": "sfneal/actions",
+    "description": "Abstraction layers for utilizing the 'Action' pattern in PHP applications",
     "keywords": [
         "sfneal",
-        "laravel-actions"
+        "actions"
     ],
-    "homepage": "https://github.com/sfneal/laravel-actions",
+    "homepage": "https://github.com/sfneal/actions",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -16,8 +16,7 @@
         }
     ],
     "require": {
-        "php": "^7.1",
-        "illuminate/support": "^6.0"
+        "php": "^7.1"
     },
     "require-dev": {
         "orchestra/testbench": "^4.0",
