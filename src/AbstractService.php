@@ -1,14 +1,10 @@
 <?php
 
-
 namespace Sfneal\Actions;
 
-
 /**
- * Class AbstractService
- * @package App\Services
+ * Class AbstractService.
  */
 abstract class AbstractService
 {
-
 }
