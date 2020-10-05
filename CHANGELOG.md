@@ -16,3 +16,7 @@ All notable changes to `actions` will be documented in this file
 
 ## 0.1.3 - 2020-08-20
 - add AbstractService class
+
+
+## 0.2.0 - 2020-10-05
+- add support for php 7.0 & 7.1
