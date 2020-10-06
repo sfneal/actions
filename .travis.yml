@@ -39,6 +39,8 @@ env:
     matrix:
         - COMPOSER_FLAGS=""
         - COMPOSER_FLAGS="--prefer-lowest"
+        - COMPOSER_FLAGS="--prefer-source"
+        - COMPOSER_FLAGS="--prefer-dist"
 
 before_script:
     - echo "memory_limit=4096M" >> ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/travis.ini
