@@ -19,7 +19,7 @@
         "php": ">=7.0"
     },
     "require-dev": {
-        "orchestra/testbench": ">=2.0",
+        "orchestra/testbench": ">=3.0",
         "phpunit/phpunit": ">=5.5"
     },
     "autoload": {
