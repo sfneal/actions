@@ -1,4 +1,4 @@
-# Very short description of the package
+# Actions
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/sfneal/actions.svg?style=flat-square)](https://packagist.org/packages/sfneal/actions)
 [![Build Status](https://img.shields.io/travis/sfneal/actions/master.svg?style=flat-square)](https://travis-ci.org/sfneal/actions)
