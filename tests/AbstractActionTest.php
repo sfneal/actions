@@ -11,12 +11,12 @@ class AbstractActionTest extends TestCase
     /** @test */
     public function abstract_action_exists()
     {
-        $this->assertNotNull(AbstractAction::class);
+        $this->assertTrue(!empty((string) AbstractAction::class));
     }
 
     /** @test */
     public function abstract_action_static_exists()
     {
-        $this->assertNotNull(AbstractActionStatic::class);
+        $this->assertTrue(!empty((string) AbstractActionStatic::class));
     }
 }
