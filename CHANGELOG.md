@@ -24,3 +24,7 @@ All notable changes to `actions` will be documented in this file
 
 ## 0.2.1 - 2020-10-06
 - add support for php 5.3-5.6
+
+
+## 0.3.0 - 2020-12-04
+- add support for php 8.0
