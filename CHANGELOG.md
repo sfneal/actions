@@ -28,3 +28,8 @@ All notable changes to `actions` will be documented in this file
 
 ## 0.3.0 - 2020-12-04
 - add support for php 8.0
+
+
+## 0.4.0 - 2020-12-09
+- cut support for php5.5 & lower
+- fix min phpunit version to 5.7.27 to avoid issues with php8.
