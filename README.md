@@ -1,5 +1,6 @@
 # Actions
 
+[![Packagist PHP support](https://img.shields.io/packagist/php-v/sfneal/actions)](https://packagist.org/packages/sfneal/actions)
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/sfneal/actions.svg?style=flat-square)](https://packagist.org/packages/sfneal/actions)
 [![Build Status](https://img.shields.io/travis/sfneal/actions/master.svg?style=flat-square)](https://travis-ci.org/sfneal/actions)
 [![Quality Score](https://img.shields.io/scrutinizer/g/sfneal/actions.svg?style=flat-square)](https://scrutinizer-ci.com/g/sfneal/actions)
