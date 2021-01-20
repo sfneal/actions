@@ -7,7 +7,7 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/sfneal/actions/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/sfneal/actions/?branch=master)
 [![Total Downloads](https://img.shields.io/packagist/dt/sfneal/actions.svg?style=flat-square)](https://packagist.org/packages/sfneal/actions)
 
-Abstraction layers for utilizing the "Action" pattern in PHP applications
+Abstraction layers for utilizing the "Action" pattern in PHP applications.
 
 ## Installation
 
@@ -18,9 +18,44 @@ composer require sfneal/actions
 ```
 
 ## Usage
+Here's a basic example of an action class that accepts a string parameter to the contructor and then outputs the string in all caps from the execute method.
 
 ``` php
-// Usage description here
+use Sfneal\Actions\AbstractAction;
+
+class MockAction extends AbstractAction
+{
+    /**
+     * @var mixed|string
+     */
+    private $string;
+    
+    /**
+     * MockAction constructor.
+     * 
+     * @param string $string
+     */
+    public function __construct($string = 'output')
+    {
+        $this->string = $string;
+    }
+    
+    /**
+     * Execute the action.
+     *
+     * @return mixed
+     */
+    public function execute()
+    {
+        return strtoupper($this->string);
+    }
+}
+```
+
+
+```php
+$output = (new MockAction('string'))->execute();
+>>> 'STRING'
 ```
 
 ### Testing
@@ -29,7 +64,7 @@ composer require sfneal/actions
 composer test
 ```
 
-### Changelog
+## Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
 
@@ -37,7 +72,7 @@ Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recen
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
-### Security
+## Security
 
 If you discover any security related issues, please email stephen.neal14@gmail.com instead of using the issue tracker.
 
