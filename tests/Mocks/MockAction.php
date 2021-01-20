@@ -1,8 +1,6 @@
 <?php
 
-
 namespace Sfneal\Actions\Tests\Mocks;
-
 
 use Sfneal\Actions\AbstractAction;
 
