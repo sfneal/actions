@@ -35,5 +35,5 @@ All notable changes to `actions` will be documented in this file
 - fix min phpunit version to 5.7.27 to avoid issues with php8.
 
 
-## 0.4.1 - 2020-01-20
+## 0.4.1 - 2021-01-20
 - improved test suite by adding mock classes
