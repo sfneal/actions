@@ -5,6 +5,8 @@
 [![Build Status](https://travis-ci.com/sfneal/actions.svg?branch=master&style=flat-square)](https://travis-ci.com/sfneal/actions)
 [![Quality Score](https://img.shields.io/scrutinizer/g/sfneal/actions.svg?style=flat-square)](https://scrutinizer-ci.com/g/sfneal/actions)
 [![Total Downloads](https://img.shields.io/packagist/dt/sfneal/actions.svg?style=flat-square)](https://packagist.org/packages/sfneal/actions)
+[![StyleCI](https://github.styleci.io/repos/287091100/shield?branch=master)](https://github.styleci.io/repos/287091100?branch=master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/sfneal/actions/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/sfneal/actions/?branch=master)
 
 Abstraction layers for utilizing the "Action" pattern in PHP applications
 
