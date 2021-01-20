@@ -37,3 +37,8 @@ All notable changes to `actions` will be documented in this file
 
 ## 0.4.1 - 2021-01-20
 - improved test suite by adding mock classes
+
+
+## 1.0.0 - 2021-01-20
+- initial production release
+- optimize Travis CI test time by fixing issues with composer caching
