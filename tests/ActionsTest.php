@@ -29,7 +29,7 @@ class ActionsTest extends TestCase
     public function abstract_service_exists()
     {
         $number = 5;
-        $service = new MockService(5);
+        $service = new MockService($number);
 
         $this->assertTrue($service->double() == 10);
         $this->assertTrue($service->triple() == 15);
