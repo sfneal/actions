@@ -46,4 +46,5 @@ All notable changes to `actions` will be documented in this file
 
 ## 1.1.0 - 2021-03-30
 - make `StaticExecutor` interface to implement a static `execute()` method in `AbstractActionStatic`
-- optimize test suite assertions & Mock actions.
+- optimize test suite assertions & Mock actions
+- add code coverage uploading to Travis CI config
