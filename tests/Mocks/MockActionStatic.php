@@ -9,10 +9,11 @@ class MockActionStatic extends AbstractActionStatic
     /**
      * Execute the action.
      *
+     * @param string $output
      * @return mixed
      */
-    public static function execute()
+    public static function execute($output = 'output')
     {
-        return 'output';
+        return $output;
     }
 }
