@@ -2,9 +2,9 @@
 
 namespace Sfneal\Actions\Tests\Mocks;
 
-use Sfneal\Actions\AbstractActionStatic;
+use Sfneal\Actions\ActionStatic;
 
-class MockActionStatic extends AbstractActionStatic
+class TestActionStatic extends ActionStatic
 {
     /**
      * Execute the action.

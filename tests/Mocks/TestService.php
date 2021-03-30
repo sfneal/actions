@@ -2,9 +2,9 @@
 
 namespace Sfneal\Actions\Tests\Mocks;
 
-use Sfneal\Actions\AbstractService;
+use Sfneal\Actions\Service;
 
-class MockService extends AbstractService
+class TestService extends Service
 {
     /**
      * @var int

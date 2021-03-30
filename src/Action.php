@@ -5,7 +5,7 @@ namespace Sfneal\Actions;
 /**
  * Class AbstractAction.
  */
-abstract class AbstractAction
+abstract class Action
 {
     /**
      * Execute the action.
