@@ -3,36 +3,43 @@
 namespace Sfneal\Actions\Tests;
 
 use PHPUnit\Framework\TestCase;
+use Sfneal\Actions\AbstractAction;
+use Sfneal\Actions\AbstractActionStatic;
 use Sfneal\Actions\Tests\Mocks\MockAction;
 use Sfneal\Actions\Tests\Mocks\MockActionStatic;
 use Sfneal\Actions\Tests\Mocks\MockService;
 
 class ActionsTest extends TestCase
 {
-    /** @test */
-    public function abstract_action_exists()
+    public function test_mock_action()
     {
-        $output = (new MockAction())->execute();
+        $expected = uniqid();
+        $output = (new MockAction($expected))->execute();
 
-        $this->assertTrue($output == 'output');
+        $this->assertEquals($expected, $output);
     }
 
-    /** @test */
-    public function abstract_action_static_exists()
+    public function test_mock_action_static()
     {
-        $output = MockActionStatic::execute();
+        $expected = uniqid();
+        $output = MockActionStatic::execute($expected);
 
-        $this->assertTrue($output == 'output');
+        $this->assertEquals($expected, $output);
     }
 
-    /** @test */
-    public function abstract_service_exists()
+    public function test_mock_service()
     {
         $number = 5;
-        $service = new MockService(5);
+        $service = new MockService($number);
 
-        $this->assertTrue($service->double() == 10);
-        $this->assertTrue($service->triple() == 15);
-        $this->assertTrue($service->quadruple() == 20);
+        $this->assertEquals(10, $service->double());
+        $this->assertEquals(15, $service->triple());
+        $this->assertEquals(20, $service->quadruple());
+    }
+
+    public function test_action_execute_methods_exist()
+    {
+        $this->assertTrue(method_exists(AbstractAction::class, 'execute'));
+        $this->assertTrue(method_exists(AbstractActionStatic::class, 'execute'));
     }
 }

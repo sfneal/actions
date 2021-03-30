@@ -7,12 +7,27 @@ use Sfneal\Actions\AbstractAction;
 class MockAction extends AbstractAction
 {
     /**
+     * @var string
+     */
+    private $output;
+
+    /**
+     * MockAction constructor.
+     *
+     * @param string $output
+     */
+    public function __construct($output = 'output')
+    {
+        $this->output = $output;
+    }
+
+    /**
      * Execute the action.
      *
      * @return mixed
      */
     public function execute()
     {
-        return 'output';
+        return $this->output;
     }
 }

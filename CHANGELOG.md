@@ -42,3 +42,9 @@ All notable changes to `actions` will be documented in this file
 ## 1.0.0 - 2021-01-20
 - initial production release
 - optimize Travis CI test time by fixing issues with composer caching
+
+
+## 1.1.0 - 2021-03-30
+- make `StaticExecutor` interface to implement a static `execute()` method in `AbstractActionStatic`
+- optimize test suite assertions & Mock actions
+- add code coverage uploading to Travis CI config
