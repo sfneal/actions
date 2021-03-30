@@ -48,3 +48,7 @@ All notable changes to `actions` will be documented in this file
 - make `StaticExecutor` interface to implement a static `execute()` method in `AbstractActionStatic`
 - optimize test suite assertions & Mock actions
 - add code coverage uploading to Travis CI config
+
+
+## 2.0.0 - 2021-03-30
+- refactor `Action`, `ActionStatic` & `Service` to not use 'Abstract' prefix
