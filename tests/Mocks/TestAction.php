@@ -4,7 +4,7 @@ namespace Sfneal\Actions\Tests\Mocks;
 
 use Sfneal\Actions\Action;
 
-class MockAction extends Action
+class TestAction extends Action
 {
     /**
      * @var string
