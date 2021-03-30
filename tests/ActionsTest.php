@@ -3,8 +3,8 @@
 namespace Sfneal\Actions\Tests;
 
 use PHPUnit\Framework\TestCase;
-use Sfneal\Actions\AbstractAction;
-use Sfneal\Actions\AbstractActionStatic;
+use Sfneal\Actions\Action;
+use Sfneal\Actions\ActionStatic;
 use Sfneal\Actions\Tests\Mocks\MockAction;
 use Sfneal\Actions\Tests\Mocks\MockActionStatic;
 use Sfneal\Actions\Tests\Mocks\MockService;
@@ -39,7 +39,7 @@ class ActionsTest extends TestCase
 
     public function test_action_execute_methods_exist()
     {
-        $this->assertTrue(method_exists(AbstractAction::class, 'execute'));
-        $this->assertTrue(method_exists(AbstractActionStatic::class, 'execute'));
+        $this->assertTrue(method_exists(Action::class, 'execute'));
+        $this->assertTrue(method_exists(ActionStatic::class, 'execute'));
     }
 }

@@ -2,9 +2,9 @@
 
 namespace Sfneal\Actions\Tests\Mocks;
 
-use Sfneal\Actions\AbstractAction;
+use Sfneal\Actions\Action;
 
-class MockAction extends AbstractAction
+class MockAction extends Action
 {
     /**
      * @var string
