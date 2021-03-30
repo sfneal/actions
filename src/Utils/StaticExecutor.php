@@ -1,13 +1,11 @@
 <?php
 
-
 namespace Sfneal\Actions\Utils;
-
 
 interface StaticExecutor
 {
     /**
-     * Execute the action
+     * Execute the action.
      *
      * @return mixed
      */
