@@ -14,7 +14,7 @@ class TestAction extends Action
     /**
      * MockAction constructor.
      *
-     * @param string $output
+     * @param  string  $output
      */
     public function __construct($output = 'output')
     {

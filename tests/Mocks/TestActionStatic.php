@@ -9,7 +9,7 @@ class TestActionStatic extends ActionStatic
     /**
      * Execute the action.
      *
-     * @param string $output
+     * @param  string  $output
      * @return mixed
      */
     public static function execute($output = 'output')
