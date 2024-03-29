@@ -52,3 +52,7 @@ All notable changes to `actions` will be documented in this file
 
 ## 2.0.0 - 2021-03-30
 - refactor `Action`, `ActionStatic` & `Service` to not use 'Abstract' prefix
+
+
+## 2.0.1 - 2024-03-29 (unreleased)
+- add support for PHP 8.2 & 8.3
