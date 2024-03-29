@@ -14,7 +14,7 @@ class TestService extends Service
     /**
      * MockService constructor.
      *
-     * @param $number
+     * @param  $number
      */
     public function __construct($number)
     {
